@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: lightgrey;
+    background-color: #F5F8F9;
 }
 
 header{
@@ -21,6 +21,7 @@ header img{
 h1{
     display: inline-block;
     vertical-align: middle;
+    font-size: 40px;
 }
 
 .sfondo{
@@ -29,26 +30,33 @@ h1{
     background-color: white;
 }
 
-.buttons{
+.principale{
     width: 80%;
     margin:auto;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .bottone_uno{
     border: 0;
     border-radius: 10%;
     height: 2em;
-    background-color: blue;
+    background-color: #46ADF1;
     color: white;
     margin-right: 1em;
 }
 
 .bottone_due{
-    border-color: lightgrey;
+    border-color: #D2D6DA;
     border-radius: 10%;
     height: 2em;
-    border-color: lightgrey
     background-color: white;
-    color:lightgrey;
+    color: #D2D6DA;
+}
+
+#linea{
+    border: 1px solid #F5F8F9;
+}
+
+.lista{
+    font-size: 20px;
 }
