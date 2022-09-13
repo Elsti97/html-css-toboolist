@@ -1,10 +1,54 @@
 *{
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif; 
+}
+
+body{
+    background-color: lightgrey;
+}
+
+header{
+    background-color: white;
+}
+
+header img{
+    vertical-align: middle;
+    height: 4rem;
+    margin: 1em 0 1em 1.2em;
 }
 
 h1{
-    display: inline;
-    vertical-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sfondo{
+    width: 70%;
+    margin: auto;
+    background-color: white;
+}
+
+.buttons{
+    width: 80%;
+    margin:auto;
+    margin-top: 50px;
+}
+
+.bottone_uno{
+    border: 0;
+    border-radius: 10%;
+    height: 2em;
+    background-color: blue;
+    color: white;
+    margin-right: 1em;
+}
+
+.bottone_due{
+    border-color: lightgrey;
+    border-radius: 10%;
+    height: 2em;
+    border-color: lightgrey
+    background-color: white;
+    color:lightgrey;
 }
