@@ -28,12 +28,17 @@ h1{
     width: 70%;
     margin: auto;
     background-color: white;
+    border-radius: 1%;
 }
 
 .principale{
     width: 80%;
     margin:auto;
-    margin-top: 40px;
+    margin-top: 40px;  
+}
+
+.bottoni{
+    line-height: 50px;
 }
 
 .bottone_uno{
@@ -60,3 +65,54 @@ h1{
 .lista{
     font-size: 20px;
 }
+
+.freccia::before{
+    content:'\25BE';
+}
+
+.check{
+    border-radius: 50%;
+}
+
+.spunta{
+    color: lightseagreen;
+    border: 1px solid lightseagreen;
+}
+
+.croce{
+    color: red;
+    border: 1px solid red;
+}
+
+.type{
+    font-size: 15px;
+    width: 100px;
+    height: 2rem;
+    border-radius: 20%;
+    padding: 5px;
+}
+
+.editor{
+    background-color: #45ABE9;
+}
+
+.goal{
+    background-color: #9C72E4;
+}
+
+.reclute{
+    background-color: #63C0A9;
+}
+
+.mobile{
+    background-color: #F29E33;
+}
+
+.website{
+    background-color: #D763A1;
+}
+
+.sales{
+    background-color: #B0C925;
+}
+
