@@ -44,16 +44,15 @@ h1{
 .bottone_uno{
     border: 0;
     border-radius: 10%;
-    height: 2em;
     background-color: #46ADF1;
     color: white;
     margin-right: 1em;
 }
 
 .bottone_due{
-    border-color: #D2D6DA;
+    border: 1px solid grey;
     border-radius: 10%;
-    height: 2em;
+    border-color: #D2D6DA;
     background-color: white;
     color: #D2D6DA;
 }
@@ -71,7 +70,12 @@ h1{
 }
 
 .check{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
 }
 
 .spunta{
